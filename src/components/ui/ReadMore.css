@@ -1,0 +1,25 @@
+.read-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-ink);
+  padding-bottom: 2px;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.25s ease, gap 0.25s ease, color 0.25s ease;
+}
+
+.read-more svg {
+  transition: transform 0.25s ease;
+}
+
+.read-more:hover {
+  border-color: var(--color-ink);
+  gap: 14px;
+  color: var(--color-coral);
+}
+
+.read-more:hover svg {
+  transform: translateX(3px);
+}
