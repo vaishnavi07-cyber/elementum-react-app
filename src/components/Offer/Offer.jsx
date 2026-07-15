@@ -53,7 +53,7 @@ export default function Offer() {
                   <>
                     Piloting digital{" "}
                     <img className="offer__thumb" src={item.thumbnail} alt="" />
-                    dence
+                    confidence
                   </>
                 ) : (
                   item.title

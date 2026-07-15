@@ -3,14 +3,14 @@ import CirclePhoto from "../ui/CirclePhoto";
 import "./Hero.css";
 
 const FACES = [
-  { src: "https://randomuser.me/api/portraits/men/32.jpg", size: 108, offset: 34 },
+  { src: "https://randomuser.me/api/portraits/men/32.jpg", size: 108, offset: 20 },
   { src: "https://randomuser.me/api/portraits/men/54.jpg", size: 92, offset: -10 },
-  { src: "https://randomuser.me/api/portraits/men/76.jpg", size: 128, offset: 0 },
-  { src: "https://randomuser.me/api/portraits/men/45.jpg", size: 108, offset: 46 },
-  { src: "https://randomuser.me/api/portraits/men/22.jpg", size: 120, offset: 6 },
-  { src: "https://randomuser.me/api/portraits/men/61.jpg", size: 110, offset: 44 },
-  { src: "https://randomuser.me/api/portraits/men/83.jpg", size: 122, offset: -8 },
-  { src: "https://randomuser.me/api/portraits/men/29.jpg", size: 118, offset: 40 },
+  { src: "https://randomuser.me/api/portraits/men/76.jpg", size: 128, offset: 10 },
+  { src: "https://randomuser.me/api/portraits/men/45.jpg", size: 108, offset: 35 },
+  { src: "https://randomuser.me/api/portraits/men/22.jpg", size: 120, offset: 5 },
+  { src: "https://randomuser.me/api/portraits/men/61.jpg", size: 110, offset: 30 },
+  { src: "https://randomuser.me/api/portraits/men/83.jpg", size: 122, offset: -5 },
+  { src: "https://randomuser.me/api/portraits/men/29.jpg", size: 118, offset: 20 },
 ];
 
 export default function Hero() {

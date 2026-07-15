@@ -1,19 +1,21 @@
-.hero {
-  position: relative;
-  overflow: hidden;
-  padding-bottom: clamp(48px, 7vw, 96px);
+.hero{
+    min-height: calc(100vh - 90px);
+    display:flex;
+    align-items:center;
+    overflow:hidden;
+    position:relative;
 }
 
 .hero__inner {
   position: relative;
-  padding-top: clamp(24px, 4vw, 48px);
+  width: 100%;
 }
 
 .hero__pointer {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  margin: 0 0 18px;
+  margin-bottom: 28px;
 }
 
 .hero__pointer-icon {
@@ -31,25 +33,26 @@
 }
 
 .hero__heading {
-  font-size: clamp(2.2rem, 5.4vw, 4.6rem);
-  line-height: 1.12;
+  font-size: clamp(2.5rem, 5.4vw, 4.8rem);
+  line-height: 1;
   font-weight: 700;
-  max-width: 18ch;
+  max-width: 22ch;
 }
 
 .hero__lede {
-  margin: 32px 0 0;
-  max-width: 46ch;
+  margin-top: 24px;
+  max-width: 50ch;
   color: var(--color-ink-soft);
   font-size: 1rem;
+  line-height: 1.8;
 }
 
 .hero__faces {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
-  gap: clamp(14px, 2.4vw, 30px);
-  margin-top: clamp(40px, 6vw, 72px);
+  gap: 18px;
+  margin-top: 56px;
 }
 
 .hero__face img {
@@ -73,8 +76,8 @@
 }
 
 .hero__deco--blob {
-  right: 6%;
-  top: 150px;
+  right: 8%;
+  top: 110px;
   width: 70px;
   height: 86px;
 }
@@ -93,8 +96,9 @@
 
 @media (max-width: 560px) {
   .hero__faces {
-    gap: 12px;
-  }
+  gap: 12px;
+  justify-content: center;
+}
 
   .hero__face {
     transform: none !important;

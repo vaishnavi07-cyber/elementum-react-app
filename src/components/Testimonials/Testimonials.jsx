@@ -21,13 +21,13 @@ export default function Testimonials() {
   return (
     <section className="testimonials">
       <div className="container">
-        <div className="testimonials__meta">
+        {/* <div className="testimonials__meta">
           <span className="testimonials__meta-label">Delta faucet content, social, digital</span>
           <h3 className="testimonials__meta-title">Piloting digital confidence</h3>
           <svg width="46" height="14" viewBox="0 0 46 14" fill="none" aria-hidden="true">
             <path d="M0 7H44M44 7L38 1M44 7L38 13" stroke="currentColor" strokeWidth="1.4" />
           </svg>
-        </div>
+        </div> */}
 
         <div className="testimonials__stage">
           <div className="testimonials__cluster testimonials__cluster--left">
